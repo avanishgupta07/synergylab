@@ -21,18 +21,26 @@ This is a CRUD (Create, Read, Update, Delete) application built for an Internsha
 
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/avanishgupta07/synergylab.git
+
+
 2. Navigate to the Project Directory
-bash
-Copy code
-cd synergylab
+
+cd user-management-app 
+
 3. Install Dependencies
-bash
-Copy code
+
 npm install
+
+
 4. Run the Application
-bash
-Copy code
+
 npm start
+
+
 The application will be available at http://localhost:3000.
+
+Usage
+Add User: Use the form to input user details and click "Save".
+Edit User: Click "Edit" next to a user to update their information.
+Delete User: Click "Delete" next to a user to remove them from the list.

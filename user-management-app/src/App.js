@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import './App.css'; // Make sure you include Bootstrap in index.html or App.css
+import './App.css'; 
 
 function App() {
   const [data, setData] = useState([]);
@@ -10,7 +10,7 @@ function App() {
   const [phone, setPhone] = useState('');
   const [isUpdate, setIsUpdate] = useState(false);
 
-  // Fetch data from JSONPlaceholder
+
   useEffect(() => {
     axios.get('https://jsonplaceholder.typicode.com/users')
       .then(response => {
